@@ -17,7 +17,7 @@ export const Services = () => {
     <>
       <Flex w="100%" justifyContent="center">
         <VStack pt="100px">
-          <Heading fontFamily="Spartan">Servicos</Heading>
+          <Heading>Servicos</Heading>
           <Spacer />
           <Box w="56px" borderTop="2px solid black" borderRadius="10px"></Box>
           <Text textAlign="center">
@@ -48,7 +48,7 @@ export const Services = () => {
               >
                 <Image src={item.icon} alt="icon" height="85px" />
                 <Spacer />
-                <Heading fontSize="2xl" w="100%" fontFamily="Spartan">
+                <Heading fontSize="2xl" w="100%">
                   {item.title}
                 </Heading>
                 <Spacer />

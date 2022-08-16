@@ -14,7 +14,7 @@ export const Clients = () => {
   return (
     <Flex w="100%" justifyContent="center" zIndex="10000">
       <VStack pt="100px">
-        <Heading fontFamily="Spartan">Clientes</Heading>
+        <Heading>Clientes</Heading>
         <Spacer />
         <Box w="56px" borderTop="2px solid black" borderRadius="10px"></Box>
         <Text textAlign="center">

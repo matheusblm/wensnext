@@ -13,10 +13,7 @@ export const Main = () => {
             alignItems="center"
           >
             <VStack textAlign="left" justifyContent="space-evenly" h="300px">
-              <Heading w="100%" fontFamily="Spartan">
-                Agencia de Marketing Digital
-              </Heading>
-              <Heading w="100%"> </Heading>
+              <Heading w="100%">Agencia de Marketing Digital</Heading>
 
               <Text>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -45,44 +42,6 @@ export const Main = () => {
             /> */}
           </Box>
         </Flex>
-        <Box
-          position="absolute"
-          top="22%"
-          right={["86%", "86%", "82%", "94%", "94%"]}
-          h="490px"
-          w="130px"
-          opacity={["0.6", "0.6", "1", "1"]}
-        >
-          <Box m="5px">
-            <Image src={elementMain} alt="asdas" />
-          </Box>
-
-          <Box m="5px">
-            <Image src={elementMain} alt="asdas" />
-          </Box>
-          <Box m="5px">
-            <Image src={elementMain} alt="asdas" />
-          </Box>
-        </Box>
-        <Box
-          position="absolute"
-          top="22%"
-          right={["50%", "50%", "70%", "86%", "88%"]}
-          h="490px"
-          w="130px"
-          opacity={["0.6", "0.6", "1", "1"]}
-        >
-          <Box m="5px">
-            <Image src={elementMain} alt="asdas" />
-          </Box>
-
-          <Box m="5px">
-            <Image src={elementMain} alt="asdas" />
-          </Box>
-          <Box m="5px">
-            <Image src={elementMain} alt="asdas" />
-          </Box>
-        </Box>
       </Flex>
     </>
   );

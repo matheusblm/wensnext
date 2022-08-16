@@ -8,7 +8,7 @@ export const Header = ({ navBar }) => {
         w="100%"
         p="30px"
         justifyContent="center"
-        bg={navBar ? "#DBD2EA" : "transparent"}
+        bg={navBar ? "#FFFFF" : "#8EDFE6"}
         transition="1s"
       >
         <Flex
@@ -20,33 +20,17 @@ export const Header = ({ navBar }) => {
         >
           <Image src={logo} alt="agencia wens" width="240px" height="65px" />
 
-          <HStack alignItems="start">
-            <Link
-              href="#sobre"
-              fontSize={["sm", "sm", "md", "xl"]}
-              _hover={{ fontWeight: "bold", borderBottom: "1px solid black" }}
-            >
-              <Text> Sobre</Text>
+          <HStack alignItems="start" gridGap="10px">
+            <Link href="#sobre" _hover={{ transition: 1, opacity: 0.4 }}>
+              <Text>Sobre</Text>
             </Link>
-            <Link
-              href="#Servicos"
-              fontSize={["sm", "sm", "md", "xl"]}
-              _hover={{ fontWeight: "bold", borderBottom: "1px solid black" }}
-            >
+            <Link href="#Servicos" _hover={{ transition: 1, opacity: 0.4 }}>
               <Text> Servicos</Text>
             </Link>
-            <Link
-              href="#Clientes"
-              fontSize={["sm", "sm", "md", "xl"]}
-              _hover={{ fontWeight: "bold", borderBottom: "1px solid black" }}
-            >
+            <Link href="#Clientes" _hover={{ transition: 1, opacity: 0.4 }}>
               <Text> Clientes</Text>
             </Link>
-            <Link
-              href="#Contato"
-              fontSize={["sm", "sm", "md", "xl"]}
-              _hover={{ fontWeight: "bold", borderBottom: "1px solid black" }}
-            >
+            <Link href="#Contato" _hover={{ transition: 1, opacity: 0.4 }}>
               <Text> Contato</Text>
             </Link>
           </HStack>

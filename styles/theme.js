@@ -10,23 +10,23 @@ export const theme = extendTheme({
   styles: {
     global: {
       body: {
-        color: "#00000",
-        fontFamily: "Montserrat",
+        color: "#505489",
+        fontFamily: "Poppins,sans-serif",
       },
       h2: {
-        fontFamily: "Montserrat",
+        fontFamily: "Source Sans Pro,sans-serif",
         color: "#212121",
       },
       h3: {
-        fontFamily: "Spartan",
+        fontFamily: "Source Sans Pro,sans-serif",
         color: "#212121",
       },
       h4: {
-        fontFamily: "Spartan",
+        fontFamily: "Source Sans Pro,sans-serif",
         color: "#212121",
       },
       h5: {
-        fontFamily: "Spartan",
+        fontFamily: "Source Sans Pro,sans-serif",
         color: "#212121",
       },
     },

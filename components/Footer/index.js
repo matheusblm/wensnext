@@ -70,7 +70,7 @@ export const Footer = () => {
           justifyContent="space-evenly"
           p="50px"
         >
-          <Heading fontFamily="Spartan">Contato</Heading>
+          <Heading>Contato</Heading>
           <FormControl>
             <FormLabel htmlFor="email">Nome</FormLabel>
             <Input
